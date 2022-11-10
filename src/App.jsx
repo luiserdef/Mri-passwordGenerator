@@ -11,7 +11,7 @@ import Sound from './components/sound'
 function App () {
   const maxPasswordSize = 80
   const [passwordLength, setPasswordLength] = useState(8)
-  const [passwordText, setPasswordText] = useState('C0ntr4señ4')
+  const [passwordText, setPasswordText] = useState('P4$$w0rd')
   const [isSliderActive, setIsSliderActive] = useState(false)
   const [passwordGeneratedToggle, setPasswordGeneratedToggle] = useState(false)
   const [passwordStrengthData, setPasswordStrengthData] = useState(passwordStrength(passwordText))
